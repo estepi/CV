@@ -1,1 +1,1 @@
-##  [Current CV](https://github.com/estepi/CV/articles.pdf) 
+##  [Current CV](https://github.com/estepi/CV/blob/gh-pages/articles.pdf) 
