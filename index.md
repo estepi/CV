@@ -10,4 +10,4 @@ June 2022
 # Experience
 # Education
 ## contact
-<a download="download" href="https://github.com/estepi/CV/blob/gh-pages/articles.pdf"> CV FILE </a>
+<a download="download" href="Mancini2022/Mancini2022.pdf"> CV FILE </a>
