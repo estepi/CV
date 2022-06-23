@@ -1,0 +1,32 @@
+---
+name: Estefania
+surname: Mancini
+position: "PhD"
+address: "Grases 12 1-2"
+phone: +34 693564066
+email: "mancini.estefania@gmail.com"
+github: estepi
+linkedin: mancinie
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+* Research Data Scientist working on Biology Network Science. 
+* Big fan of Open Source, Open Science and specially Open Minds
+* Interested in Big Data and High Performance Computing specially for genomics and next generation sequencing. 
+* R/Bioconductor - developer, maintainer, teacher
+* Vicepresident Education - Success Club - Barcelona - Toastmasters International
+* EURAXESS Mentor. eLife ambassador focused on learning about reproducibility in bioinformatics.
+
+# Education
+
+
+# Work Experience
+
