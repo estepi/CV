@@ -1,0 +1,72 @@
+---
+name: Estefania
+surname: Mancini
+position: "Research Data Scientist"
+profilepic: "MANCINI.jpg"
+phone: +34 693564066
+email: "mancini.estefania@gmail.com"
+github: estepi
+linkedin: mancinie
+orcid: 0000-0002-7308-1273
+aboutme: "I am a Senior Research Data Scientist currently working on Biology Network Science. I am interested in Big Data and High Performance Computing specially for genomic data. I am keen on learning public speaking and leadership skills"
+# headcolor: 414141 - default red
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+```
+
+
+```{r functions}
+readExcelSheets <- function(filename){
+  # read all sheets in .xlsx 
+  all <- readxl::excel_sheets(filename)
+  # import each sheet into a list using readxl::read_excel
+  list <- lapply(all, function(x) readxl::read_excel(filename, sheet = x))
+  
+# save sheet name for each sheet (list)
+  names(list) <- all
+  
+# breaks up list and creates a dataframe for each sheet with df names matching sheet names
+  list2env(list, envir = .GlobalEnv)
+}
+```
+
+
+
+```{r load-data, message=F, results='hide'}
+filename <- here::here("data", "CV.xlsx")
+readExcelSheets(filename)
+```
+
+
+# Professional experience
+I am a research data scientist
+
+```{r}
+Experience %>% 
+  detailed_entries(what = role,
+                   when = Year,
+                   with = Institution,
+                   where = Where, 
+                   why = details                   )
+```
+
+# Education
+I am a molecular biologist with huge experience in bioinformatics 
+
+
+```{r}
+Education %>% 
+  detailed_entries(what = Degree,
+                   when = Year,
+                   with = Institution,
+                   where = Where,
+                   why = details)
+```
