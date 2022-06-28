@@ -1,13 +1,6 @@
 CV
 ================
-Estefania Mancini
+Thanks for downloading my current CV. 
 June 2022
 
-## status
-## field
-## tech
-## loves
-# Experience
-# Education
-## contact
-<a download="download" href="Mancini_2022.pdf"> CV FILE </a>
+<a download="Mancini2022.pdf" href="Mancini_2022.pdf"> CV FILE </a>
