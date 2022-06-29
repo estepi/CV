@@ -41,7 +41,7 @@ readExcelSheets <- function(filename){
 
 
 ```{r load-data, message=F, results='hide'}
-filename <- here::here("data", "CV.xlsx")
+filename <- here::here("data", "CV.xls")
 readExcelSheets(filename)
 ```
 
@@ -49,12 +49,13 @@ readExcelSheets(filename)
 # Professional experience
 I am a research data scientist
 
-```{r}
+
+```{r exp2}
 Experience %>% 
-  detailed_entries(what = role,
+  detailed_entries(with = role,
+                   what = details,
                    when = Year,
-                   with = Institution,
-                   where = Where, 
+                   where = Institution,
                    why = details                   )
 ```
 

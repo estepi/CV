@@ -1,4 +1,5 @@
-CV
+Estefania Mancini
+Research Data Scientist
 ================
 Thanks for downloading my current CV. 
 June 2022
