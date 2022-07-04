@@ -6,14 +6,17 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 ## Some stuff about me
 Thanks for coming here! 
-You can download a short  version of my  CV
-<a download="Mancini2022.pdf" href="Mancini_2022.pdf"> CV Short </a>
 
-or a long version:  
-<a download="Mancini2022_long.pdf" href="Mancini_2022_long.pdf"> CV Long </a>
+You can download my current cv:
+
+* <a download="Mancini2022.pdf" href="Mancini_2022.pdf"> short </a>
+
+* <a download="Mancini2022_long.pdf" href="Mancini_2022_long.pdf">  Long </a>
 Long version
