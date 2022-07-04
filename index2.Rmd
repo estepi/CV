@@ -1,6 +1,6 @@
 ---
-title: "Estefania Mancini"
-author: "Research data scientist"
+title: "Welcome! "
+author: Estefania Mancini *Research Data Scientist*
 output: html_document
 ---
 
@@ -10,7 +10,27 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-## Thanks for coming here! 
+I'm Estefania and I come from Argentina. I'm also Italian citizen because my relatives and currently I am living in beautiful Barcelona. I define myself as a citizen of the world
+
+I am a very proactive, flexible and creative woman who really enjoys working in multidisciplinary groups with modern philosophy
+
+I am naturally a problem solver, resilient, optimist, curious, art lover and open mind mentality. I like to organize groups of people and to understand and reinforce the role of everybody in a group
+
+I am very interested in Big Data and High Performance Computing in biological science. 
+
+I have a strong background in molecular biology and huge experience in bioinformatics, specially applied to genomic and next generation sequencing. During last 10 years my research was involved mainly data related to  RNA biology
+
+As a **Research Data Scientist** My daily work involves plethora of:
+
+* Programming tools (R, Perl, Python, Linux/Bash scripting, cypher/Neo4J) 
+
+* Visualization tools: cytoscape, latex, Apache
+
+* Management tools: Asana, Trello, OneNote, git
+
+* Data analysis techniques: clustering, pca, test
+
+* Communication skills: assistance to conferences, President of Success Toastmasters Barcelona, Social Activities
 
 You can download my current cv:
 
